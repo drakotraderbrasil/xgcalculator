@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="XGCalculator.ChatFeedControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="Auto" Width="Auto">
+    <Border Background="#F5F5F5" CornerRadius="6" BorderBrush="#CCC" BorderThickness="1" Padding="5">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="MessagesPanel" Margin="5"/>
+        </ScrollViewer>
+    </Border>
+</UserControl>

@@ -10,12 +10,18 @@
     <Compile Update="BalloonControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ChatFeedControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ManualCalibrationWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="BalloonControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChatFeedControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

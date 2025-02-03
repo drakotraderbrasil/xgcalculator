@@ -15,12 +15,11 @@ using System.Windows.Controls.Primitives;
 
 namespace XGCalculator
 {
-    // Classe ZoneOption atualizada para incluir a propriedade Icon
+    // Classe ZoneOption com propriedade Icon
     public class ZoneOption
     {
         public string Description { get; set; }
         public double XGValue { get; set; }
-        // Propriedade para o caminho do ícone (URI pack)
         public string Icon { get; set; }
     }
 
@@ -379,6 +378,9 @@ namespace XGCalculator
             moves.Add(new Move { Team = team, Jogada = option.Description, XG = option.XGValue });
             RefreshTeamList();
             UpdateChart();
+
+            // Atualiza o chat feed com o evento: exibe o nome do evento e o ícone
+            ChatFeed.AddEventMessage(option.Description, option.Icon);
         }
 
         private void UndoMoveButton_Click(object sender, RoutedEventArgs e)

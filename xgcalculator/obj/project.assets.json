@@ -530,11 +530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drako\\source\\repos\\xgcalculator\\xgcalculator\\xgcalculator.csproj",
+      "projectUniqueName": "C:\\Users\\drako\\Desktop\\bkp - Copia - Copia\\xgcalculatorbkp\\xgcalculator\\xgcalculator.csproj",
       "projectName": "xgcalculator",
-      "projectPath": "C:\\Users\\drako\\source\\repos\\xgcalculator\\xgcalculator\\xgcalculator.csproj",
+      "projectPath": "C:\\Users\\drako\\Desktop\\bkp - Copia - Copia\\xgcalculatorbkp\\xgcalculator\\xgcalculator.csproj",
       "packagesPath": "C:\\Users\\drako\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drako\\source\\repos\\xgcalculator\\xgcalculator\\obj\\",
+      "outputPath": "C:\\Users\\drako\\Desktop\\bkp - Copia - Copia\\xgcalculatorbkp\\xgcalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9a9c9N+GixE=",
+  "dgSpecHash": "iz/cRM+h02U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\drako\\source\\repos\\xgcalculator\\xgcalculator\\xgcalculator.csproj",
+  "projectFilePath": "C:\\Users\\drako\\Desktop\\bkp - Copia - Copia\\xgcalculatorbkp\\xgcalculator\\xgcalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drako\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\drako\\.nuget\\packages\\ffme.windows\\4.4.350\\ffme.windows.4.4.350.nupkg.sha512",

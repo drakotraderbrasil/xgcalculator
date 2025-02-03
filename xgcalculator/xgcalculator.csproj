@@ -36,9 +36,9 @@
     <Content Include="images\field2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\field.png">
+    <Resource Include="images\field.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </Resource>
     <Content Include="Video\escanteio.webm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

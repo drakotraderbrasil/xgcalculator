@@ -43,3 +43,145 @@ C:\Users\drako\source\repos\xgcalculator\xgcalculator\obj\Debug\net8.0-windows\r
 C:\Users\drako\source\repos\xgcalculator\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.pdb
 C:\Users\drako\source\repos\xgcalculator\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.genruntimeconfig.cache
 C:\Users\drako\source\repos\xgcalculator\xgcalculator\obj\Debug\net8.0-windows\ref\xgcalculator.dll
+C:\Users\drako\source\repos\xgcalculator\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.sourcelink.json
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.exe
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\field2.png
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\field.png
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\Video\escanteio.webm
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.deps.json
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.runtimeconfig.json
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.pdb
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\ffme.win.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\FFmpeg.AutoGen.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\LiveCharts.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Converters.Wpf.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Core.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Css.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Dom.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Model.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Rendering.Wpf.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Runtime.Wpf.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.csproj.AssemblyReference.cache
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\BalloonControl.baml
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ManualCalibrationWindow.baml
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\App.baml
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\BalloonControl.g.cs
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ManualCalibrationWindow.g.cs
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator_Content.g.cs
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator_MarkupCompile.cache
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.g.resources
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.AssemblyInfoInputs.cache
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.AssemblyInfo.cs
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.csproj.CoreCompileInputs.cache
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.sourcelink.json
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalcul.AA0DEBDC.Up2Date
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\refint\xgcalculator.dll
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.pdb
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.genruntimeconfig.cache
+C:\Users\drako\Desktop\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ref\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.exe
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\field2.png
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\field.png
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\Video\escanteio.webm
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.deps.json
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.runtimeconfig.json
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.pdb
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\ffme.win.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\FFmpeg.AutoGen.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\LiveCharts.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Converters.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Core.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Css.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Dom.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Model.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Rendering.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Runtime.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.csproj.AssemblyReference.cache
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\BalloonControl.baml
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ManualCalibrationWindow.baml
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\App.baml
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\BalloonControl.g.cs
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ManualCalibrationWindow.g.cs
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator_Content.g.cs
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator_MarkupCompile.cache
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.g.resources
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.AssemblyInfoInputs.cache
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.AssemblyInfo.cs
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.csproj.CoreCompileInputs.cache
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.sourcelink.json
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalcul.AA0DEBDC.Up2Date
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\refint\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.pdb
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.genruntimeconfig.cache
+C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ref\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.exe
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\field2.png
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\Video\escanteio.webm
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.deps.json
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.runtimeconfig.json
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.pdb
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\ffme.win.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\FFmpeg.AutoGen.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\LiveCharts.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\MahApps.Metro.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Converters.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Core.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Css.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Dom.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Model.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Rendering.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\SharpVectors.Runtime.Wpf.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\de\MahApps.Metro.resources.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.csproj.AssemblyReference.cache
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\BalloonControl.baml
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ChatFeedControl.baml
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ManualCalibrationWindow.baml
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\App.baml
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\BalloonControl.g.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ChatFeedControl.g.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ManualCalibrationWindow.g.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator_Content.g.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator_MarkupCompile.cache
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator_MarkupCompile.lref
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.g.resources
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.AssemblyInfoInputs.cache
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.AssemblyInfo.cs
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.csproj.CoreCompileInputs.cache
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.sourcelink.json
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalcul.AA0DEBDC.Up2Date
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\refint\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.pdb
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.genruntimeconfig.cache
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ref\xgcalculator.dll

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\drako\source\repos\xgcalculator\xgcalculator\obj\Debug\net8.0-windows\
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\
 xgcalculator
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\drako\source\repos\xgcalculator\xgcalculator\App.xaml
-31405669671
-3-1232119091
-61875557074
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\App.xaml
+4-1267302533
+2701539322
+9-1590750763
 221-109476785
-BalloonControl.xaml;MainWindow.xaml;ManualCalibrationWindow.xaml;
+BalloonControl.xaml;ChatFeedControl.xaml;MainWindow.xaml;ManualCalibrationWindow.xaml;
 
 False
 

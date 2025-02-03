@@ -9,7 +9,6 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/field2.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/field.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("video/escanteio.webm")]
 
 
