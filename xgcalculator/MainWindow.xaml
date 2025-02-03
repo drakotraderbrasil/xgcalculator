@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mah:MetroWindow x:Class="XGCalculator.MainWindow"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                 xmlns:lc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+                 Title="Calculadora de xG" Height="700" Width="800"
+                 WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Título -->
+            <RowDefinition Height="Auto"/>
+            <!-- Inputs dos Times -->
+            <RowDefinition Height="Auto"/>
+            <!-- Campo de Futebol -->
+            <RowDefinition Height="Auto"/>
+            <!-- Botões de Ação -->
+            <RowDefinition Height="*"/>
+            <!-- Lista e Gráfico -->
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Título centralizado -->
+        <TextBlock Grid.Row="0" Text="Calculadora de xG" 
+                   FontSize="28" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,10"/>
+
+        <!-- Inputs dos Times -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+            <StackPanel Orientation="Vertical" Margin="5">
+                <TextBlock Text="Time A:" FontSize="16"/>
+                <TextBox x:Name="TimeATextBox" Width="150" FontSize="16" Text="Time A"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="5">
+                <TextBlock Text="Time B:" FontSize="16"/>
+                <TextBox x:Name="TimeBTextBox" Width="150" FontSize="16" Text="Time B"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Campo de Futebol -->
+        <Grid Grid.Row="2" Height="300" HorizontalAlignment="Center" Margin="0,10">
+            <Image x:Name="FieldImage" Source="Images/field.png" Stretch="Fill"/>
+            <Canvas x:Name="FieldCanvas" Background="Transparent" 
+                    MouseLeftButtonDown="FieldCanvas_MouseLeftButtonDown" 
+                    MouseLeftButtonUp="FieldCanvas_MouseLeftButtonUp"/>
+        </Grid>
+
+        <!-- Botões de Ação -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+            <Button x:Name="UndoMoveButton" Content="Desfazer Última Jogada" Width="170" Margin="5" Click="UndoMoveButton_Click"/>
+            <Button x:Name="ResetDataButton" Content="Resetar Dados" Width="150" Margin="5" Click="ResetDataButton_Click"/>
+            <Button x:Name="SaveCSVButton" Content="Salvar CSV" Width="120" Margin="5" Click="SaveCSVButton_Click"/>
+        </StackPanel>
+
+        <!-- Lista e Gráfico -->
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <ListView x:Name="TeamListView" Grid.Column="0" Margin="5">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Time" DisplayMemberBinding="{Binding Team}" Width="120"/>
+                        <GridViewColumn Header="xG Total" DisplayMemberBinding="{Binding TotalXG}" Width="100"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <lc:CartesianChart x:Name="XGChart" Grid.Column="1" Margin="5">
+                <lc:CartesianChart.AxisX>
+                    <lc:Axis Title="Jogada"/>
+                </lc:CartesianChart.AxisX>
+                <lc:CartesianChart.AxisY>
+                    <lc:Axis Title="xG Acumulado"/>
+                </lc:CartesianChart.AxisY>
+            </lc:CartesianChart>
+        </Grid>
+
+        <!-- Popup para exibir o BalloonControl -->
+        <Popup x:Name="EventPopup" AllowsTransparency="True" Placement="Relative"
+               PlacementTarget="{Binding ElementName=FieldCanvas}" StaysOpen="False"/>
+    </Grid>
+</mah:MetroWindow>
