@@ -61,7 +61,7 @@ namespace XGCalculator {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/xgcalculator;component/chatfeedcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/xgcalculator;V1.0.0.0;component/chatfeedcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ChatFeedControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

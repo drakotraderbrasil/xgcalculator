@@ -8,7 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icone_chat.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/field2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icone_chart.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("video/escanteio.webm")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icone_times.png")]
 
 

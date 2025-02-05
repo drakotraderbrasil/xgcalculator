@@ -15,6 +15,7 @@
     <None Remove="images\icone_bola_parada_lateral_inferior.png" />
     <None Remove="images\icone_bola_parada_lateral_superior.png" />
     <None Remove="images\icone_bola_parada_mais_distante.png" />
+    <None Remove="images\icone_chart.png" />
     <None Remove="images\icone_contra_ataque_certeiro.png" />
     <None Remove="images\icone_contra_ataque_sem_chance.png" />
     <None Remove="images\icone_escanteio.png" />
@@ -25,6 +26,7 @@
     <None Remove="images\icone_pequena_area_fora.png" />
     <None Remove="images\icone_pequena_area_gol.png" />
     <None Remove="images\icone_pequena_area_trave.png" />
+    <None Remove="images\icone_times.png" />
     <None Remove="images\icone_zona14_bola_parada.png" />
     <None Remove="images\icone_zona14_chute.png" />
     <None Remove="images\icone_zona14_infiltracao.png" />
@@ -33,13 +35,25 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="images\icone_chat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\field2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\icone_chart.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="images\field.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Content Include="Video\escanteio.webm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\icone_times.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -138,7 +138,9 @@ C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0
 C:\Users\drako\Desktop\bkp - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ref\xgcalculator.dll
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.exe
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\field2.png
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\icone_chart.png
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\Video\escanteio.webm
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\icone_times.png
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.deps.json
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.runtimeconfig.json
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\xgcalculator.dll
@@ -185,3 +187,4 @@ C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debu
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.pdb
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\xgcalculator.genruntimeconfig.cache
 C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\obj\Debug\net8.0-windows\ref\xgcalculator.dll
+C:\Users\drako\Desktop\bkp - Copia - Copia\xgcalculatorbkp\xgcalculator\bin\Debug\net8.0-windows\images\icone_chat.png

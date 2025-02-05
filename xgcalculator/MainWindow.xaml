@@ -4,89 +4,216 @@
                  xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
                  xmlns:lc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
                  xmlns:local="clr-namespace:XGCalculator"
-                 Title="Calculadora de xG" Height="700" Width="1000"
-                 WindowStartupLocation="CenterScreen">
-    <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <!-- Título -->
-            <RowDefinition Height="Auto"/>
-            <!-- Inputs dos Times -->
-            <RowDefinition Height="Auto"/>
-            <!-- Campo de Futebol -->
-            <RowDefinition Height="Auto"/>
-            <!-- Botões de Ação -->
-            <RowDefinition Height="*"/>
-            <!-- Área para Lista, Chat Feed e Gráfico -->
-        </Grid.RowDefinitions>
-
-        <!-- Título -->
-        <TextBlock Grid.Row="0" Text="Calculadora de xG" 
-                   FontSize="28" FontWeight="Bold" 
-                   HorizontalAlignment="Center" Margin="0,10"/>
-
-        <!-- Inputs dos Times -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
-            <StackPanel Orientation="Vertical" Margin="5">
-                <TextBlock Text="Time A:" FontSize="16"/>
-                <TextBox x:Name="TimeATextBox" Width="150" FontSize="16" Text="Time A"/>
-            </StackPanel>
-            <StackPanel Orientation="Vertical" Margin="5">
-                <TextBlock Text="Time B:" FontSize="16"/>
-                <TextBox x:Name="TimeBTextBox" Width="150" FontSize="16" Text="Time B"/>
-            </StackPanel>
-        </StackPanel>
-
-        <!-- Campo de Futebol -->
-        <Grid Grid.Row="2" Height="300" HorizontalAlignment="Center" Margin="0,10">
-            <Image x:Name="FieldImage" Source="Images/field.png" Stretch="Fill"/>
-            <Canvas x:Name="FieldCanvas" Background="Transparent" 
-                    MouseLeftButtonDown="FieldCanvas_MouseLeftButtonDown" 
-                    MouseLeftButtonUp="FieldCanvas_MouseLeftButtonUp"/>
-        </Grid>
-
-        <!-- Botões de Ação -->
-        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
-            <Button x:Name="UndoMoveButton" Content="Desfazer Última Jogada" Width="170" Margin="5" Click="UndoMoveButton_Click"/>
-            <Button x:Name="ResetDataButton" Content="Resetar Dados" Width="150" Margin="5" Click="ResetDataButton_Click"/>
-            <Button x:Name="SaveCSVButton" Content="Salvar CSV" Width="120" Margin="5" Click="SaveCSVButton_Click"/>
-        </StackPanel>
-
-        <!-- Área de Lista, Chat Feed e Gráfico -->
-        <Grid Grid.Row="4">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*"/>
-                <!-- Lista de Times -->
-                <ColumnDefinition Width="2*"/>
-                <!-- Chat Feed -->
-                <ColumnDefinition Width="3*"/>
-                <!-- Gráfico xG -->
-            </Grid.ColumnDefinitions>
-
-            <ListView x:Name="TeamListView" Grid.Column="0" Margin="5">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Time" DisplayMemberBinding="{Binding Team}" Width="120"/>
-                        <GridViewColumn Header="xG Total" DisplayMemberBinding="{Binding TotalXG}" Width="100"/>
-                    </GridView>
-                </ListView.View>
-            </ListView>
-
-            <!-- Chat Feed -->
-            <local:ChatFeedControl x:Name="ChatFeed" Grid.Column="1" Margin="5"/>
-
-            <lc:CartesianChart x:Name="XGChart" Grid.Column="2" Margin="5">
-                <lc:CartesianChart.AxisX>
-                    <lc:Axis Title="Jogada"/>
-                </lc:CartesianChart.AxisX>
-                <lc:CartesianChart.AxisY>
-                    <lc:Axis Title="xG Acumulado"/>
-                </lc:CartesianChart.AxisY>
-            </lc:CartesianChart>
-        </Grid>
-
-        <!-- Popup para exibir o BalloonControl -->
-        <Popup x:Name="EventPopup" AllowsTransparency="True" Placement="Relative"
+                 Title="Calculadora de xG" 
+                 WindowStartupLocation="CenterScreen"
+                 WindowState="Maximized">
+    <Grid x:Name="RootGrid">
+        <!-- Botão de alternância para o modo normal (visível no modo normal) -->
+        <Button x:Name="ToggleModeButton"
+            Content="Modo Mini"
+            Width="80" Height="25"
+            HorizontalAlignment="Right" VerticalAlignment="Top"
+            Margin="0,5,5,0"
+            Click="MiniModeToggleButton_Click"/>
+        <!-- Área de Conteúdo -->
+        <Grid>
+            <!-- Modo Normal – versão original -->
+            <Grid x:Name="NormalModeGrid" Visibility="Visible" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!-- Título e Inputs dos Times -->
+                <StackPanel Grid.Row="0" Orientation="Vertical">
+                    <TextBlock Text="Calculadora de xG" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
+                        <StackPanel Orientation="Vertical" Margin="5">
+                            <TextBlock Text="Time A:" FontSize="16"/>
+                            <TextBox x:Name="TimeATextBox" Width="150" FontSize="16" Text="Time A"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" Margin="5">
+                            <TextBlock Text="Time B:" FontSize="16"/>
+                            <TextBox x:Name="TimeBTextBox" Width="150" FontSize="16" Text="Time B"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <!-- Campo de Futebol com Feedback (Normal Mode) -->
+                <Grid Grid.Row="1" Height="300" HorizontalAlignment="Center" Margin="10">
+                    <Image x:Name="FieldImage" Source="Images/field.png" Stretch="Fill"/>
+                    <Canvas x:Name="FieldCanvas" Background="Transparent"
+                  MouseLeftButtonDown="FieldCanvas_MouseLeftButtonDown"
+                  MouseLeftButtonUp="FieldCanvas_MouseLeftButtonUp"/>
+                    <!-- Canvas para feedback de eventos -->
+                    <Canvas x:Name="FeedbackCanvas" IsHitTestVisible="False"/>
+                </Grid>
+                <!-- Botões de Ação -->
+                <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                    <Button x:Name="UndoMoveButton" Content="Desfazer Última Jogada" Width="170" Margin="5" Click="UndoMoveButton_Click"/>
+                    <Button x:Name="ResetDataButton" Content="Resetar Dados" Width="150" Margin="5" Click="ResetDataButton_Click"/>
+                    <Button x:Name="SaveCSVButton" Content="Salvar CSV" Width="120" Margin="5" Click="SaveCSVButton_Click"/>
+                </StackPanel>
+                <!-- Área para Lista, Chat Feed e Gráfico -->
+                <Grid Grid.Row="3" Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <ListView x:Name="TeamListView" Grid.Column="0" Margin="5">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Time" DisplayMemberBinding="{Binding Team}" Width="120"/>
+                                <GridViewColumn Header="xG Total" DisplayMemberBinding="{Binding TotalXG}" Width="100"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <local:ChatFeedControl x:Name="ChatFeed" Grid.Column="1" Margin="5"/>
+                    <lc:CartesianChart x:Name="XGChart" Grid.Column="2" Margin="5">
+                        <lc:CartesianChart.AxisX>
+                            <lc:Axis Title="Jogada"/>
+                        </lc:CartesianChart.AxisX>
+                        <lc:CartesianChart.AxisY>
+                            <lc:Axis Title="xG Acumulado"/>
+                        </lc:CartesianChart.AxisY>
+                    </lc:CartesianChart>
+                </Grid>
+                <!-- Popup para exibir o balão de evento (modo normal) -->
+                <Popup x:Name="EventPopup" AllowsTransparency="True" Placement="Relative"
                PlacementTarget="{Binding ElementName=FieldCanvas}" StaysOpen="False"/>
+            </Grid>
+
+            <!-- Modo Mini – aplicado somente neste modo -->
+            <Grid x:Name="MiniModeGrid" Visibility="Collapsed" MouseDown="MiniModeGrid_MouseDown">
+                <Grid>
+                    <!-- Campo de Futebol responsivo -->
+                    <Image x:Name="FieldImageMini" Source="Images/field.png" Stretch="Fill"/>
+                    <Canvas x:Name="FieldCanvasMini" Background="Transparent"
+                  MouseLeftButtonDown="FieldCanvasMini_MouseLeftButtonDown"
+                  MouseLeftButtonUp="FieldCanvasMini_MouseLeftButtonUp"/>
+                    <!-- Canvas para feedback de eventos no modo mini -->
+                    <Canvas x:Name="FeedbackCanvasMini" IsHitTestVisible="False"/>
+                    <!-- Botão "Voltar" no canto superior esquerdo (seta aumentada, em branco) -->
+                    <Button x:Name="BackButtonMini" Click="BackButtonMini_Click" Background="Transparent" BorderThickness="0"
+                  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+                        <TextBlock Text="‹" FontSize="36" FontWeight="Bold" Foreground="White"/>
+                    </Button>
+                    <!-- Painel de ícones, dispostos verticalmente, no canto inferior direito -->
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10">
+                        <Button x:Name="btnTimesMini" Click="BtnTimesMini_Click" Background="Transparent" BorderThickness="0" Margin="0,5">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+                                    <Setter Property="RenderTransform">
+                                        <Setter.Value>
+                                            <ScaleTransform ScaleX="1" ScaleY="1"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="RenderTransform">
+                                                <Setter.Value>
+                                                    <ScaleTransform ScaleX="1.1" ScaleY="1.1"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Image Source="Images/icone_times.png" Width="30" Height="30"/>
+                        </Button>
+                        <Button x:Name="btnChatMini" Click="BtnChatMini_Click" Background="Transparent" BorderThickness="0" Margin="0,5">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+                                    <Setter Property="RenderTransform">
+                                        <Setter.Value>
+                                            <ScaleTransform ScaleX="1" ScaleY="1"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="RenderTransform">
+                                                <Setter.Value>
+                                                    <ScaleTransform ScaleX="1.1" ScaleY="1.1"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Image Source="Images/icone_chat.png" Width="30" Height="30"/>
+                        </Button>
+                        <Button x:Name="btnChartMini" Click="BtnChartMini_Click" Background="Transparent" BorderThickness="0" Margin="0,5">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+                                    <Setter Property="RenderTransform">
+                                        <Setter.Value>
+                                            <ScaleTransform ScaleX="1" ScaleY="1"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="RenderTransform">
+                                                <Setter.Value>
+                                                    <ScaleTransform ScaleX="1.1" ScaleY="1.1"/>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Image Source="Images/icone_chart.png" Width="30" Height="30"/>
+                        </Button>
+                    </StackPanel>
+                    <!-- Overlays com efeito deslizante (janela menor) -->
+                    <!-- Overlay para Times -->
+                    <Grid x:Name="OverlayTimesMini" Visibility="Collapsed"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,50">
+                        <Border Background="White" CornerRadius="5" Padding="10" Width="300" Height="200" RenderTransformOrigin="0.5,0.5">
+                            <Border.RenderTransform>
+                                <TranslateTransform x:Name="ttTimesMini" Y="200"/>
+                            </Border.RenderTransform>
+                            <ListView x:Name="OverlayTeamListMini"/>
+                        </Border>
+                    </Grid>
+                    <!-- Overlay para Chat -->
+                    <Grid x:Name="OverlayChatMini" Visibility="Collapsed"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,50">
+                        <Border Background="White" CornerRadius="5" Padding="10" Width="300" Height="200" RenderTransformOrigin="0.5,0.5">
+                            <Border.RenderTransform>
+                                <TranslateTransform x:Name="ttChatMini" Y="200"/>
+                            </Border.RenderTransform>
+                            <local:ChatFeedControl x:Name="OverlayChatFeedMini"/>
+                        </Border>
+                    </Grid>
+                    <!-- Overlay para Gráfico -->
+                    <Grid x:Name="OverlayChartMini" Visibility="Collapsed"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,50">
+                        <Border Background="White" CornerRadius="5" Padding="10" Width="300" Height="200" RenderTransformOrigin="0.5,0.5">
+                            <Border.RenderTransform>
+                                <TranslateTransform x:Name="ttChartMini" Y="200"/>
+                            </Border.RenderTransform>
+                            <lc:CartesianChart x:Name="MiniOverlayChart" Background="Transparent">
+                                <lc:CartesianChart.AxisX>
+                                    <lc:Axis Title="Jogada"/>
+                                </lc:CartesianChart.AxisX>
+                                <lc:CartesianChart.AxisY>
+                                    <lc:Axis Title="xG Acumulado"/>
+                                </lc:CartesianChart.AxisY>
+                            </lc:CartesianChart>
+                        </Border>
+                    </Grid>
+                    <!-- Retângulo transparente para fechar overlays ao clicar fora -->
+                    <Rectangle x:Name="OverlayCloseArea" Fill="Transparent" Visibility="Collapsed"
+                     MouseDown="OverlayCloseArea_MouseDown"/>
+                    <!-- Popup para exibir o balão de evento (modo mini) -->
+                    <Popup x:Name="EventPopupMini" AllowsTransparency="True" Placement="Relative"
+                 PlacementTarget="{Binding ElementName=FieldCanvasMini}" StaysOpen="False"/>
+                </Grid>
+            </Grid>
+        </Grid>
     </Grid>
 </mah:MetroWindow>
